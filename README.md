@@ -1,9 +1,9 @@
 # Implementation for Running Team 12 Classic Software Testing
-Step 1: Clone the following repository to your local machine: https://github.com/rohanpadhye/JQF
-Step 2: Install MAVEN and the most up to date version of JDK
-Step 3: Run ./setup.sh to compile any necessary dependencies
-Step 4: Run javac -cp .:$(scripts/classpath.sh) SimpleTest.java to compile the simple java test file
-Step 5: Run bin/jqf-random SimpleTest testSimpleTest 10 to run the testsimpletest function within the SimpleTest.java function and generate 10 random inputs
+* Step 1: Clone the following repository to your local machine: https://github.com/rohanpadhye/JQF
+* Step 2: Install MAVEN and the most up to date version of JDK
+* Step 3: Run ./setup.sh to compile any necessary dependencies
+* Step 4: Run javac -cp .:$(scripts/classpath.sh) SimpleTest.java to compile the simple java test file
+* Step 5: Run bin/jqf-random SimpleTest testSimpleTest 10 to run the testsimpletest function within the SimpleTest.java function and generate 10 random inputs
 
 
 # JQF + Zest: Semantic Fuzzing for Java
